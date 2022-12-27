@@ -83,7 +83,6 @@ a:hover {
 .headercontent {
     display: flex;
     flex-direction: column;
-    width: 30%;
     align-items: center;
 }
 
@@ -152,6 +151,11 @@ a:hover {
     font-weight: 600;
     background-color: #4860FE;
     transition: 0.2s;
+}
+
+.aboutimg {
+    min-width: 40%;
+    max-width: 80%;
 }
 
 /* Footer */
@@ -291,4 +295,91 @@ a:hover.txtstyle2 {
     justify-content: flex-start;
     align-items: flex-start;
     margin: 1.5% 10% 0px 10%;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 750px) {
+.header {
+    display: flex;
+    height: 100px;
+    margin: 0% 10% 0% 10%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 38px;
+    text-transform: uppercase;
+    margin: 0px;
+    white-space: nowrap;
+}
+
+#aboutbg {
+    display: flex;
+    margin: 0% 1% 0% 1%;
+    padding: 5%;
+    justify-content: center;
+}
+
+.title2 {
+    font-weight: 900;
+    font-size: 28px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px;
+    white-space: nowrap;
+}
+
+.gamestitle {
+    white-space: nowrap;
+    font-size: 5vw;
+    margin: 0%;
+}
+
+#service {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 10% 0% 10%;
+    flex-direction: column;
+}
+
+.services {
+    display: flex;
+    padding: 0px;
+    margin: 0px 0px 10px 0px;
+    border-radius: 10px;
+    background-color: #F2F2F2;
+    flex-direction: column;
+}
+
+#finglets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.dtechbottom {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+#toes {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0% 10% 0px 10%;
+}
+
+.compimg {
+    display: none;
+}
 }
