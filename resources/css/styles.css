@@ -55,6 +55,13 @@ a:hover {
     padding: 0px 0px 10px 0px;
 }
 
+.background-top2 {
+    background-image: url("../media/svg/bg2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 0px 10px 0px;
+}
+
 #headerbg {
     display: flex;
     margin: 5% 10% 10% 10%;
@@ -127,6 +134,101 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+/* Team */
+
+#teambg {
+    display: flex;
+    margin: 0% 10% 0% 10%;
+    padding: 5%;
+    justify-content: center;
+}
+
+.teamcontent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+.circle {
+    border-radius: 420px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.teamtxt {
+    margin: 15px 3px 3px 3px;
+    font-weight: 800;
+}
+
+.teamtxt2 {
+    margin: 3px;
+    color: #878787;
+    font-weight: 200;
+}
+
+/* Newsletter */
+
+input {
+    margin: 10px 0px 0px 5px;
+    border-radius: 10px;
+    border: 1px #ffffff solid;
+    height: 40px;
+    background-color: #1c1c1c;
+    color: #ffffff;
+    font-family: sarabun;
+}
+
+input[type=submit] {
+    margin: 10px 0px 0px 5px;
+    padding: 0px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffffff1a;
+    color: #4860FE;
+    height: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+input[type=submit]:hover {
+    margin: 10px 0px 0px 5px;
+    padding: 0px 20px;
+    border-radius: 10px;
+    height: 40px;
+    text-transform: uppercase;
+    background-color: #4860FE;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+input[type=text] {
+    width: 14vw;
+    margin: 10px 0px 0px 5px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffffff1a;
+    font-family: sarabun;
+    font-weight: 100;
+    font-size: 16px;
+    height: 40px;
+}
+
+::placeholder {
+    color: #878787;
 }
 
 /* Button */
