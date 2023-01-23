@@ -130,9 +130,16 @@ a:hover {
     align-items: center;
 }
 
+/* About */
+.aboutimg {
+    min-width: 40%;
+    max-width: 60%;
+    margin: 0px 0px 3vw 0px;
+}
+
 #aboutbg {
     display: flex;
-    margin: 0% 10% 0% 10%;
+    margin: 0%;
     padding: 5%;
     justify-content: center;
 }
@@ -141,6 +148,13 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.aboutcontent2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 7vw 0vw;
 }
 
 /* Team */
@@ -286,11 +300,6 @@ input[type=text] {
     transition: 0.2s;
 }
 
-.aboutimg {
-    min-width: 40%;
-    max-width: 80%;
-}
-
 /* Footer */
 
 .dtechbottom {
@@ -334,7 +343,6 @@ input[type=text] {
 
 .bg2 {
     background-color: #1c1c1c;
-    margin-top: 3%;
     width: 100%;
     height: auto;
 }
@@ -513,6 +521,10 @@ a:hover.txtstyle2 {
 }
 
 .compimg {
+    display: none;
+}
+
+#newsletter {
     display: none;
 }
 }
