@@ -34,7 +34,7 @@
 <body>
 
 <!-- Header -->
-<div class="background-top2">
+<div class="background-top3">
 	<header class="header">
 		<a href="">
 			<h2 class="hh2"><img class="hdimg" src="resources/media/svg/iconw.svg">DecentriTech Studios</h2>
@@ -44,24 +44,8 @@
 <!-- Information -->
 	<div id="headerbg">
 		<div class="headercontent">
-			<h1 class="title">THE POSSE</h1>
-			<p style="max-width: 660px; font-weight: 100; font-size: 18px; text-align: center;">We are a small bunch.</p>
-		</div>
-	</div>
-</div>
-
-<!-- Team -->
-<div id="teambg">
-	<div class="teamcontent">
-		<div class="team">
-			<img class="circle" src="resources/media/team/theprofessor.png">
-			<h3 class="teamtxt">The Professor</h3>
-			<p class="teamtxt2">Programmer</p>
-		</div>		
-		<div class="team">
-			<img class="circle" src="resources/media/team/noah.jpg">
-			<h3 class="teamtxt">Noah Siler</h3>
-			<p class="teamtxt2">Programmer, Designer</p>
+			<h1 class="title">Thank you for subscribing!</h1>
+			<a class="intxt2" href="index">Back To Home</a>
 		</div>
 	</div>
 </div>
@@ -90,6 +74,7 @@
 				<input type="text" placeholder="email@gmail.com" name="email">
 				<input type="submit" value="Subscribe" name="submit" formtarget="_blank">
 			</form>
+			<script type="text/javascript"> window.addEventListener("DOMContentLoaded", function() { const yourForm = document.getElementById('SurveyForm'); yourForm.addEventListener("submit", function(e) { e.preventDefault(); const data = new FormData(yourForm); const action = e.target.action; fetch(action, { method: 'POST', body: data, }) .then(() => { window.location.replace('https://studio.decentritech.com/thanks') }) }) }); </script>
 		</div>
 	</div>
 	<div id="toes2">

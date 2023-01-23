@@ -62,6 +62,13 @@ a:hover {
     padding: 0px 0px 10px 0px;
 }
 
+.background-top3 {
+    background-image: url("../media/svg/bg3.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 0px 10px 0px;
+}
+
 #headerbg {
     display: flex;
     margin: 5% 10% 10% 10%;
@@ -252,6 +259,30 @@ input[type=text] {
     width: max-content;
     font-weight: 600;
     background-color: #4860FE;
+    transition: 0.2s;
+}
+
+.intxt2 {
+    color: #ffffff;
+    background-color: #ffffff4a;
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin: 3% 0% 1% 0%;
+    width: max-content;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.intxt2:hover {
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin: 3% 0% 1% 0%;
+    width: max-content;
+    font-weight: 600;
+    background-color: #4860FE;
+    cursor: pointer;
     transition: 0.2s;
 }
 
