@@ -96,13 +96,13 @@
 			<a class="txtstyle2" href="https://studio.decentritech.com">To Be Announced</a>
 		</div>
 		<div class="centertext" id="services">
-			<form action="https://script.google.com/macros/s/AKfycbxMnXlWMdWGIptsB-gdCwZ0-RNdeQQJFR17n23UGTmbQzQ_eDm9uMCzmJ2lYLoTre0/exec" method="POST">
+			<form id="newsletter" action="https://script.google.com/macros/s/AKfycbxMnXlWMdWGIptsB-gdCwZ0-RNdeQQJFR17n23UGTmbQzQ_eDm9uMCzmJ2lYLoTre0/exec" method="POST">
 				<h2 class="txtstyle">Subscribe to our Newsletter</h2>
 				<p class="txtstyle2" href="https://studio.decentritech.com">Sign up and get access to closed/open beta's, devblogs, and more.</p>
 				<input type="text" placeholder="email@gmail.com" name="email">
 				<input id="submit" type="submit" value="Subscribe" name="submit" formtarget="_blank">
 			</form>
-			<script type="text/javascript"> window.addEventListener("DOMContentLoaded", function() { const yourForm = document.getElementById('submit'); yourForm.addEventListener("submit", function(e) { e.preventDefault(); const data = new FormData(yourForm); const action = e.target.action; fetch(action, { method: 'POST', body: data, }) .then(() => { window.location.replace('https://studio.decentritech.com/thanks') }) }) }); </script>
+			<script type="text/javascript"> window.addEventListener("DOMContentLoaded", function() { const yourForm = document.getElementById('newsletter'); yourForm.addEventListener("submit", function(e) { e.preventDefault(); const data = new FormData(yourForm); const action = e.target.action; fetch(action, { method: 'POST', body: data, }) .then(() => { window.location.replace('https://studio.decentritech.com/thanks') }) }) }); </script>
 		</div>
 	</div>
 	<div id="toes2">
