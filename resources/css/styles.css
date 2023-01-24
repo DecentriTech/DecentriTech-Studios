@@ -724,14 +724,9 @@ a:hover.txtstyle2 {
     flex-direction: column;
 }
 
-h2.positiontxt {
-    margin-bottom: 1px;
-    margin-top: 0px;
-}
-
-p.positiontxt {
-    margin-bottom: 1px;
-    margin-top: 0px;
+.txt {
+    text-align: center;
+    margin-top: 3px;
 }
 
 .positiontxt {
