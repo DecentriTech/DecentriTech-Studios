@@ -192,7 +192,7 @@ button {
 #careersbg {
     display: flex;
     margin: 0%;
-    padding: 5%;
+    padding: 5% 10%;
     justify-content: center;
     flex-direction: column;
 }
@@ -240,7 +240,7 @@ p.positiontxt {
 #benefitsbg {
     display: flex;
     margin: 0%;
-    padding: 5%;
+    padding: 5% 10%;
     justify-content: center;
     flex-direction: column;
 }
