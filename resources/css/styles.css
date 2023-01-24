@@ -344,7 +344,7 @@ input[type=submit] {
 input[type=submit]:hover {
     margin: 10px 0px 0px 5px;
     padding: 0px 20px;
-    border-radius: 10px;
+    border-radius: 10px !important;
     height: 40px;
     text-transform: uppercase;
     background-color: #4860FE;
