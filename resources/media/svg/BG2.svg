@@ -5,5 +5,5 @@
     </pattern>
   </defs>
   <rect id="colortest" width="1920" height="713" fill="url(#pattern)"/>
-  <rect id="overlay" width="1920" height="713" fill="#6fff7d" style="mix-blend-mode: exclusion;isolation: isolate"/>
+  <rect id="overlay" width="1920" height="713" fill="#0045bb" style="mix-blend-mode: exclusion;isolation: isolate"/>
 </svg>

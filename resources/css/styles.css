@@ -69,6 +69,27 @@ a:hover {
     padding: 0px 0px 10px 0px;
 }
 
+.background-top4 {
+    background-image: url("../media/svg/bg4.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 0px 10px 0px;
+}
+
+.background-top5 {
+    background-image: url("../media/svg/bg5.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 0px 10px 0px;
+}
+
+.background-top6 {
+    background-image: url("../media/svg/bg6.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 0px 10px 0px;
+}
+
 #headerbg {
     display: flex;
     margin: 5% 10% 10% 10%;
@@ -155,6 +176,43 @@ a:hover {
     flex-direction: column;
     align-items: center;
     margin: 7vw 0vw;
+}
+
+/* Careers */
+.careersimg {
+    min-width: 40%;
+    max-width: 60%;
+    margin: 0px 0px 3vw 0px;
+}
+
+#careersbg {
+    display: flex;
+    margin: 0%;
+    padding: 5%;
+    justify-content: center;
+}
+
+.careerscontent {
+    display: flex;
+    flex-direction: column;
+}
+
+.careerscontent2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 7vw 0vw;
+}
+
+.position {
+    display: flex;
+    width: 100%;
+    padding: 2vw 2vw;
+    margin: 2vw 20vw 0vw 0vw;
+    background-color: #111650;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* Team */
