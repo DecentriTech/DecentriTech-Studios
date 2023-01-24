@@ -40,6 +40,10 @@ a:hover {
     text-decoration: bold;
 }
 
+button {
+    all: unset;
+}
+
 .header {
     display: flex;
     height: 100px;
@@ -671,8 +675,19 @@ p.positiontxt {
     width: fit-content;
 }
 
+.intxt3 {
+    color: #ffffff;
+    background-color: #ffffff1a;
+    border-radius: 10px;
+    padding: 10px 18px;
+    margin: 1% 0% 1% 0%;
+    width: max-content;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
 input.alt[type=text] {
-    width: 52%;
+    width: 50%;
     margin: 10px 0px 0px 0px;
     padding: 0px 10px;
     border-radius: 10px;
