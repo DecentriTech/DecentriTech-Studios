@@ -58,9 +58,9 @@
 			<div class="positiontxt">
 				<h2>No Positions Available</h2>
 				<p>Get notified the next time a position opens</p>
-				<form id="newsletter" style="display: block;" action="https://script.google.com/macros/s/AKfycbztzvOTAtxqaO2Pl8LUlipmNtMBmYRP2MIrotu5O5mv052g01bdMMrfCkJlVAjoXjwX/exec" method="POST">
-				<input class="alt" type="text" placeholder="email@gmail.com" name="email">
-				<button class="intxt3" type="submit">SUBSCRIBE</button>
+				<form id="joblist" action="https://script.google.com/macros/s/AKfycbyIYVU28-iw6-05R4APLTTyVVMM7vZ1c4m6iEAe_bAVjEPvmHxRuZS3mCenLn21PZp3/exec" method="POST">
+				<input class="alt" type="email" placeholder="email@gmail.com" name="email">
+				<button class="intxt" id="submit" type="submit" value="Subscribe" name="submit" formtarget="_blank">NOTIFY ME</button>
 			</form>
 			</div>
 		</div>
@@ -145,10 +145,11 @@
 			<form id="newsletter" action="https://script.google.com/macros/s/AKfycbxMnXlWMdWGIptsB-gdCwZ0-RNdeQQJFR17n23UGTmbQzQ_eDm9uMCzmJ2lYLoTre0/exec" method="POST">
 				<h2 class="txtstyle">Subscribe to our Newsletter</h2>
 				<p class="txtstyle2" href="https://studio.decentritech.com">Sign up and get access to closed/open beta's, devblogs, and more.</p>
-				<input type="text" placeholder="email@gmail.com" name="email">
+				<input type="email" placeholder="email@gmail.com" name="email">
 				<input id="submit" type="submit" value="Subscribe" name="submit" formtarget="_blank">
 			</form>
 			<script type="text/javascript"> window.addEventListener("DOMContentLoaded", function() { const yourForm = document.getElementById('newsletter'); yourForm.addEventListener("submit", function(e) { e.preventDefault(); const data = new FormData(yourForm); const action = e.target.action; fetch(action, { method: 'POST', body: data, }) .then(() => { window.location.replace('https://studio.decentritech.com/thanks') }) }) }); </script>
+			<script type="text/javascript"> window.addEventListener("DOMContentLoaded", function() { const yourForm = document.getElementById('joblist'); yourForm.addEventListener("submit", function(e) { e.preventDefault(); const data = new FormData(yourForm); const action = e.target.action; fetch(action, { method: 'POST', body: data, }) .then(() => { window.location.replace('https://studio.decentritech.com/thanks') }) }) }); </script>
 		</div>
 	</div>
 	<div id="toes2">

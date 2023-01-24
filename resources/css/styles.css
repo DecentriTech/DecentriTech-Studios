@@ -384,6 +384,32 @@ input.alt[type=text] {
     height: 40px;
 }
 
+input[type=email] {
+    width: 14vw;
+    margin: 10px 0px 0px 5px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffffff1a;
+    font-family: sarabun;
+    font-weight: 100;
+    font-size: 16px;
+    height: 40px;
+}
+
+input.alt[type=email] {
+    width: 14vw;
+    margin: 10px 0px 0px 0px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffffff1a;
+    font-family: sarabun;
+    font-weight: 100;
+    font-size: 16px;
+    height: 40px;
+}
+
 ::placeholder {
     color: #878787;
 }
@@ -399,6 +425,7 @@ input.alt[type=text] {
     width: max-content;
     font-weight: 600;
     transition: 0.2s;
+    cursor: pointer;
 }
 
 .intxt3:hover {
@@ -410,6 +437,7 @@ input.alt[type=text] {
     font-weight: 600;
     background-color: #4860FE;
     transition: 0.2s;
+    cursor: pointer;
 }
 
 .intxt2 {
@@ -422,6 +450,7 @@ input.alt[type=text] {
     font-weight: 600;
     cursor: pointer;
     transition: 0.2s;
+    cursor: pointer;
 }
 
 .intxt2:hover {
@@ -434,6 +463,42 @@ input.alt[type=text] {
     background-color: #4860FE;
     cursor: pointer;
     transition: 0.2s;
+    cursor: pointer;
+}
+
+.intxt {
+    color: #ffffff;
+    background-color: #ffffff1a;
+    font-size: 12px;
+    border-radius: 10px;
+    padding: 0px 30px;
+    height: 40px;
+    margin: 0% 0% 0% 2%;
+    width: max-content;
+    font-weight: 600;
+    transition: 0.2s;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.intxt:hover {
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 0px 30px;
+    height: 40px;
+    margin: 0% 0% 0% 2%;
+    width: max-content;
+    font-weight: 600;
+    background-color: #4860FE;
+    transition: 0.2s;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+#joblist {
+    display: flex;
+    align-items: flex-end;
 }
 
 /* Footer */
@@ -687,6 +752,19 @@ p.positiontxt {
 }
 
 input.alt[type=text] {
+    width: 50%;
+    margin: 10px 0px 0px 0px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffffff1a;
+    font-family: sarabun;
+    font-weight: 100;
+    font-size: 16px;
+    height: 40px;
+}
+
+input.alt[type=email] {
     width: 50%;
     margin: 10px 0px 0px 0px;
     padding: 0px 10px;
