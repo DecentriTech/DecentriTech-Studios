@@ -507,6 +507,11 @@ input.alt[type=email] {
     align-items: flex-end;
 }
 
+#newsletter {
+    display: flex;
+    align-items: flex-end;
+}
+
 /* Footer */
 
 .dtechbottom {
